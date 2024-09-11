@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
+
+p  {
+    margin-top: 40px;
+    font-size: 30px;
+    color: rgb(213, 213, 33);
+    text-align: left;
+    width: 65vh;
+}
+
+.container {
+    padding: 50px;
+    padding-top: 90px;
+    display: flex;
+    flex-direction: line;
+    gap: 30px;
+}
+
+
+#nameAndBio {
+    width: 60vh;
+    position: relative;
+    margin-top: 40px;
+    
+}
+
+#pictureAndBtn {
+    display: grid;
+    margin: 40px;
+    justify-items: center;
+}
+
+img {
+    width: 200px;
+    border-radius: 70px;
+}
+
+.btn-group  {
+    margin-top: 40px;
+}
+
+.list-group {
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.list-group>li      {
+    padding: 25px;
+    text-align: center;
+}
+
